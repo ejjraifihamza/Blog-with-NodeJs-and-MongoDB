@@ -13,7 +13,8 @@
         <address>
           <a href="mailto:<%= post.author.email %>"><%= post.author.name %></a>
         </address>
-        | <time><%= post.humanReadableDate %></time>
+        |
+        <time datetime="<%= post.date %> "><%= post.humanReadableDate %></time>
       </section>
       <hr />
       <section>
